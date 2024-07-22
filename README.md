@@ -37,7 +37,7 @@ You can install the necessary Python packages using pip:
 ```sh
 pip install opencv-python numpy RPi.GPIO
 ```
-##Hardware Setup
+## Hardware Setup
 Connect the Camera Module to the Raspberry Pi.
 Connect the L298N Motor Driver to the Raspberry Pi GPIO pins:
 out1 to GPIO 17
@@ -45,7 +45,7 @@ out2 to GPIO 18
 out3 to GPIO 27
 out4 to GPIO 22
 Connect the motors to the L298N Motor Driver.
-###Configuration
+### Configuration
 Download the pre-trained model and configuration files to your project directory:
 
 coco.names
@@ -53,7 +53,7 @@ frozen_inference_graph.pb
 ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt
 Update the paths in detectMove.py to reflect the location of these files.
 
-##Usage
+## Usage
 Run the script:
 ```sh
 python detectMove.py
@@ -62,12 +62,14 @@ Wait for 10 seconds for the initial setup.
 
 The wheelchair will start moving forward and perform actions based on detected objects.
 
-##Troubleshooting
+## Troubleshooting
 Camera Issues: Ensure the camera is properly connected and enabled.
 GPIO Errors: Check the GPIO pin connections and ensure the L298N Motor Driver is functioning.
 Dependencies: Make sure all required packages are installed.
 
-##Acknowledgments
+## Acknowledgments
 OpenCV Documentation
+
 TensorFlow Object Detection API
+
 Raspberry Pi Documentation
