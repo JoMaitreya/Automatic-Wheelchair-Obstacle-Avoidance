@@ -56,7 +56,7 @@ Update the paths in detectMove.py to reflect the location of these files.
 ## Usage
 Run the script:
 ```sh
-python detectMove.py
+python detectMoveAvoid.py
 ```
 Wait for 10 seconds for the initial setup.
 
