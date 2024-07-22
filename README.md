@@ -1,8 +1,8 @@
-# Wheelchair Object Detection
+# Automatic Wheelchair Obstacle Detection and Avoidance
 
 ## Overview
 
-This project uses OpenCV and a Raspberry Pi to control a wheelchair based on object detection. The system uses a camera to detect objects and make real-time decisions to move the wheelchair. The primary objective is to navigate the wheelchair around obstacles and perform actions based on the detected objects.
+This project uses OpenCV and a Raspberry Pi 4 to control a wheelchair based on object detection. The system uses a camera to detect objects and make real-time decisions to move the wheelchair. The primary objective is to navigate the wheelchair around obstacles and perform actions based on the detected objects without the need for human intervention.
 
 ### Components
 
